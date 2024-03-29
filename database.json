@@ -1,0 +1,56 @@
+{
+  "posts": [{ "id": 1, "title": "json-server", "author": "typicode" }],
+  "comments": [{ "id": 1, "body": "some comment", "postId": 1 }],
+  "profile1": { "name": "typicode" },
+  "profile": { "name": "typicode" },
+  "contacts": [
+    {
+      "id": 1,
+      "name": "Петр",
+      "email": "piter@example.com",
+      "phone": "+799999999999"
+    },
+    {
+      "id": 2,
+      "name": "Иван",
+      "email": "Ivan@example.com",
+      "phone": "+7999992569"
+    },
+    {
+      "id": 3,
+      "name": "Катя",
+      "email": "kate@example.com",
+      "phone": "+79999991526"
+    },
+    {
+      "id": 4,
+      "name": "Семен",
+      "email": "Semen@example.com",
+      "phone": "+799999363658"
+    },
+    {
+      "id": 5,
+      "name": "Анатолий",
+      "email": "Anatoliy@example.com",
+      "phone": "+79999992626"
+    },
+    {
+      "id": 6,
+      "name": "Женя",
+      "email": "Jeny@example.com",
+      "phone": "+79999926169"
+    },
+    {
+      "id": 7,
+      "name": "Яков",
+      "email": "Yakov@example.com",
+      "phone": "+79999943694"
+    },
+    {
+      "id": 8,
+      "name": "Роман",
+      "email": "Roman@example.com",
+      "phone": "+79999989362"
+    }
+  ]
+}
