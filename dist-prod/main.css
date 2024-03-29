@@ -1,0 +1,143 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  padding-top: 10px;
+  padding-bottom: 100px;
+  background-image: url(dc5c83a7d07452c144f9.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  /*background: #c7b39b;*/
+}
+
+.title_text {
+  display: flex;
+  flex-direction: column;
+  gap: 10vh;
+  text-align: center;
+  font-size: 2.5rem;
+  color: rgb(103, 118, 8);
+  padding: 1px;
+}
+
+.text {
+  display: flex;
+  flex-direction: column;
+  gap: 10vh;
+  text-align: center;
+  font-size: 1.5rem;
+  color: rgb(26, 3, 5);
+}
+
+.el_clock {
+  font-weight: bold;
+  display: flex;
+  flex-direction: column;
+  gap: 10vh;
+  text-align: center;
+  font-size: 1.5rem;
+  color: rgb(100, 12, 243);
+  padding: 1px;
+}
+
+button {
+  border-radius: 25px;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 20px;
+  cursor: none;
+  background-color: #b6e86b;
+}
+
+.clock_name {
+  display: flex;
+  flex-direction: column;
+  gap: 5vh;
+  text-align: right;
+  font-size: 2.5rem;
+  color: rgb(180, 237, 102);
+  padding: 1px;
+}
+
+.heading-and-body-cont {
+  display: flex;
+  flex-direction: column;
+  gap: 10vh;
+  text-align: center;
+  font-size: 1.5rem;
+  -webkit-animation: glow 1s ease-in-out infinite alternate;
+  -moz-animation: glow 1s ease-in-out infinite alternate;
+  animation: glow 1s ease-in-out infinite alternate;
+}
+
+.recent-scores,
+.add-title {
+  text-align: center;
+  font-size: 2.5rem;
+  color: #fff;
+  -webkit-animation: glow 1s ease-in-out infinite alternate;
+  -moz-animation: glow 1s ease-in-out infinite alternate;
+  animation: glow 1s ease-in-out infinite alternate;
+}
+
+.program-title {
+  text-align: center;
+  font-size: 2.5rem;
+  -webkit-animation: glow 1s ease-in-out infinite alternate;
+  -moz-animation: glow 1s ease-in-out infinite alternate;
+  animation: glow 1s ease-in-out infinite alternate;
+}
+
+.program-body {
+  display: flex;
+  gap: 10%;
+  width: 80%;
+  align-self: center;
+  justify-self: center;
+}
+
+.refreshBtn {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+.scores-sec-and-refreshBtn {
+  display: flex;
+  flex-direction: column;
+  gap: 2vh;
+  width: 45%;
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  border-radius: 20px;
+  background-color: rgba(248, 78, 78, 0.45);
+  box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.25);
+  backdrop-filter: blur(15px);
+  padding: 10px;
+}
+
+.input-area-add-title {
+  display: flex;
+  flex-direction: column;
+  gap: 2vh;
+  width: 45%;
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  border-radius: 20px;
+  background-color: rgba(255, 255, 255, 0.45);
+  box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.25);
+  backdrop-filter: blur(15px);
+  padding: 10px;
+}
+
+.input-area {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
